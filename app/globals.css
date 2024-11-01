@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+@layer base {
+  .font-geist-sans {
+    font-family: var(--font-geist-sans);
+  }
+  .font-geist-mono {
+    font-family: var(--font-geist-mono);
+  }
+}
